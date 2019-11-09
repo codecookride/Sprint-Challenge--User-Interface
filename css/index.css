@@ -85,6 +85,23 @@ p {
     padding-bottom: 20px;  
 }
 
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:30px 0 30px 0;
+    border-top: 1px dashed black;
+    padding-top:20px;
+}
+
+.content2 .text-container{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;
+    margin:30px 0 20px 0;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,6 +128,45 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:nth-child(1) {
+    background:teal;
+  }
+
+  .middle-content .boxes .box:nth-child(2) {
+    background: gold;
+  }
+
+  .middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+  }
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+  }
+
+  .middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+  }
+
+  .middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+  }
+
+  .middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+  }
+
+  .middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+  }
+
+  .middle-content .boxes .box:nth-child(9) {
+    background:indigo;
+  }
+
+  .middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+  }
 
 .bottom-content {
     display: flex;
@@ -131,13 +187,45 @@ footer {
     background: black;
 }
 
+.stretch {
+    width:800px;
+    margin:auto;
+    padding:30px 0 30px 0;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:20px;
+    margin:0 auto;
+    width: 800px;
+}
+
+button {
+    background:white;
+    border: 2px solid black;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top:30px;
 }
 
 footer nav a {
